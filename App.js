@@ -23,8 +23,8 @@ export default class App extends React.Component {
 					<Image source={logo} style={styles.image} />
 				</View>
 				<View style={styles.appTitleContainer}>
-					<Text style={styles.appTitle}>Secure your Data With Locked</Text>
-					<Text style={styles.appInfo}>Locked by autoLock for 39 minutes</Text>
+					<Text style={styles.appTitle}>Locked</Text>
+					<Text style={styles.appInfo}>New way to secure your DATA</Text>
 				</View>
 				<View style={styles.formContainer}>
 					<TextInput
@@ -49,12 +49,12 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#3B475E',
+		backgroundColor: '#282C34',
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
 	logo: {
-		backgroundColor: '#46586F',
+		backgroundColor: '#22262B',
 		justifyContent: 'center',
 		alignItems: 'center',
 		width: 64,
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
 	},
 	formContainer: {
 		// flex: 1,
-		marginTop: 60,
+		marginTop: 40,
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
